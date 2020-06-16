@@ -1,0 +1,53 @@
+@import "./input.scss";
+@import "./checkbox.scss";
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.column-one {
+  background-color: #fbfcff;
+  padding: 30px;
+  text-align: center;
+  height: 100vh;
+  .box {
+    &-active {
+      background-color: #f0f2ff;
+    }
+  }
+}
+.column-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f0f2ff;
+  padding: 30px;
+  text-align: center;
+  height: 100vh;
+  .box {
+    &-active {
+      background-color: white;
+    }
+  }
+  .container-drap {
+    max-height: 280px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  .list-two {
+    height: 300px;
+    overflow-y: auto;
+  }
+}
+
+.box {
+  display: flex;
+  text-align: left;
+  border-radius: 5px;
+  margin: 11px 0px 10px 0px;
+}
+.container-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
