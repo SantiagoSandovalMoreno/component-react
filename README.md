@@ -1,3 +1,6 @@
+[node]: https://nodejs.org/es/download/
+[git]: https://git-scm.com/downloads
+
 # Componente React
 
 Punto 2 de Prueba **Componente React**
